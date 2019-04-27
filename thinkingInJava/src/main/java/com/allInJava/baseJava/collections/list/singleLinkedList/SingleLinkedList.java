@@ -41,18 +41,7 @@ public class SingleLinkedList implements List {
         size++;
     }
 
-    private void check(int i, Object e) {
-        check(i);
-        if (e==null){
-            throw new NullPointerException("不可添加null");
-        }
-    }
 
-    private void check(int i) {
-        if (i<0 || i>size()){
-            throw new IndexOutOfBoundsException("索引越界异常:"+i);
-        }
-    }
 
     @Override
     public int size() {
@@ -138,5 +127,18 @@ public class SingleLinkedList implements List {
         }
         sb.append("]");
         return sb.toString();
+    }
+
+    private void check(int i, Object e) {
+        check(i);
+        if (e==null){
+            throw new NullPointerException("不可添加null");
+        }
+    }
+
+    private void check(int i) {
+        if (i<0 || i>size()){
+            throw new IndexOutOfBoundsException("索引越界异常:"+i);
+        }
     }
 }

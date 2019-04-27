@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class TestList {
     public static void main(String[] args) {
-        List list = new LinkedList();
+        LinkedList list = new LinkedList();
         list.add(1);
         list.add(2);
         list.add(3);
@@ -20,6 +20,7 @@ public class TestList {
         list.add(8);
         list.add(9);
         list.add(3,10);
+        list.remove(list.size());
         System.out.println(list);
     }
 }
