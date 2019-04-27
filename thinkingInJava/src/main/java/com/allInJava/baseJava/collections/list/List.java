@@ -1,4 +1,4 @@
-package com.allInJava.baseJava.collections;
+package com.allInJava.baseJava.collections.list;
 
 /**
  * @author: yuhang

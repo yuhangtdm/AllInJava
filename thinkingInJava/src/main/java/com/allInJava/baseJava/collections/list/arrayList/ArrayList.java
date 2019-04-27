@@ -1,12 +1,15 @@
-package com.allInJava.baseJava.collections;
+package com.allInJava.baseJava.collections.list.arrayList;
+
+import com.allInJava.baseJava.collections.list.List;
 
 import java.util.Arrays;
 
 /**
+ * 数组的实现
  * @author: yuhang
  * @date: 2019/4/14
  */
-public class ArrayList implements List{
+public class ArrayList implements List {
     // 数组
     private Object[] elementData;
     // 容器数量

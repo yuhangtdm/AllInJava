@@ -1,4 +1,6 @@
-package com.allInJava.baseJava.collections;
+package com.allInJava.baseJava.collections.list.arrayList;
+
+import com.allInJava.baseJava.collections.list.arrayList.ArrayList;
 
 import java.util.List;
 
